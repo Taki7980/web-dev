@@ -4,7 +4,7 @@ import React from "react"
 
 const ClayInTeam = () => {
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 lg:py-24">
+    <div className="max-w-6xl mx-auto px-4 md:px-0 py-12 md:py-16 lg:py-24">
       <div className="flex flex-col gap-12 md:gap-16 lg:gap-20">
         <div className="space-y-6 flex flex-col md:flex-row md:items-center md:justify-between">
           <div className="flex flex-col max-w-3xl gap-4">

@@ -5,17 +5,22 @@ import Program from "@/components/shared/Program/Program";
 import SalesForce from "@/components/shared/SalesForce/SalesForce";
 import CustomerReview from "@/components/shared/CustomerReview/CustomerReview";
 import CampaingHero from "@/components/shared/CampaingHero/CampaingHero";
+import Marketing from "@/components/shared/Marketing/Marketing";
+import SmoothScroll from "@/components/ui/smoothScroll";
+import CmrResearch from "@/components/shared/CMRresearch/CmrResearch";
 
 export default function Home() {
 	return (
-		<div className="w-full">
+		<SmoothScroll>
 			<Hero />
-			<ClayInTeam />
-			<ResourcesLearn />
+			<Marketing />
+			<CmrResearch/>
 			<Program />
 			<SalesForce />
+			<ClayInTeam />
 			<CustomerReview />
-			<CampaingHero/>
-		</div>
+			<ResourcesLearn />
+			<CampaingHero />
+		</SmoothScroll>
 	);
 }

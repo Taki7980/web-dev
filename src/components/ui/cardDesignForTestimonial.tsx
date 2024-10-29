@@ -5,9 +5,9 @@ import React from "react";
 
 const CardDesignForTestimonial = () => {
 	return (
-		<Card className="w-full max-w-2xl border-4 border-orange-500 rounded-lg overflow-hidden">
+		<Card className="max-w-sm md:max-w-2xl border-4 border-orange-500 rounded-lg overflow-hidden">
 			<CardContent className="p-6">
-				<blockquote className="text-lg text-gray-700 mb-4">
+				<blockquote className="text-sm md:text-lg text-gray-700 mb-4">
 					&ldquo;Clay is a game changer for marketing, data, and
 					operations. We have tripled our enrichment rate with Clay&apos;s
 					combination of data providers vs. our previous solution.

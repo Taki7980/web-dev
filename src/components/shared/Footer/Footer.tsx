@@ -61,7 +61,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-[#0A0A0A] text-white py-8 sm:py-12 md:py-16">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 md:px-0">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-8 mb-12 sm:mb-16">
           {footerSections.map((section, index) => (
             <div key={index} className="mb-8 sm:mb-0">
